@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+<html>
+
+<body>
+{% block content %}
+
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+
+        <div class="row px-xl-5 pb-3">
+            {% for i in products %}
+            <div class="col-lg-2 col-md-4 bg-gray col-sm-5 pb-1  " style=" width:150px;margin:2px;">
+                <div class="card product-item shadow  " style="background-color:gray;">
+                    <div class="card-header product-img position-relative overflow-hidden" style="padding:5px;">
+                        <img class="img-fluid w-99 " style="height:190px;" src={{i.p_img.url}} alt="">
+                    </div>
+                    <div class="card-body   text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3">{{i.p_name}}</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6>Rs : {{i.p_price}}</h6><br>
+
+                        </div>
+                        <div style="background-color:#9d9d9d;padding:5px;">
+                                                        <a href="{{i.get_url}}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i><br>Details</a>
+
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+           {% endfor %}
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+
+{% endblock %}
+</body>
+</html>
