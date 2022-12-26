@@ -13,6 +13,14 @@ This project is made to buy electronic gadgets. No payment options added in this
 
 ## Project
 
-https://firstprojectapp.herokuapp.com/
+http://djangoestore.pythonanywhere.com/
+
+
+
+## Home Page 
+
+
+
+
 
 
