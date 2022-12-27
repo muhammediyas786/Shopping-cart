@@ -20,6 +20,6 @@ http://djangoestore.pythonanywhere.com/
 ## Home Page 
 
 
-![ScreenShot](./static/img/download.jpg)
+![ScreenShot](https://dashing-pika-0fa706.netlify.app/screenshots/shop-1.png)
 
 
