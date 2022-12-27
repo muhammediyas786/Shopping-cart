@@ -20,6 +20,6 @@ http://djangoestore.pythonanywhere.com/
 ## Home Page 
 
 
-![ScreenShot](/screenshots/latest.png)
+![ScreenShot](/static/img/Screenshot_20221226_101748.png)
 
 
