@@ -20,6 +20,6 @@ http://djangoestore.pythonanywhere.com/
 ## Home Page 
 
 
-![ScreenShot](https://raw.githubusercontent.com/muhammediyas786/Shopping-cart/master/static/img/download.jpg)
+![ScreenShot](./static/img/download.jpg)
 
 
