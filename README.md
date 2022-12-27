@@ -20,7 +20,8 @@ http://djangoestore.pythonanywhere.com/
 ## Home Page 
 
 
-![App Screenshot](https://github.com/muhammediyas786/Shopping-cart/blob/master/static/img/Screenshot_20221226_101748.png)
-
+<p>
+    <img src="https://github.com/muhammediyas786/Shopping-cart/blob/master/static/img/Screenshot_20221226_101748.png" width="220" height="240" />
+</p>
 
 
